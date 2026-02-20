@@ -54,15 +54,16 @@
                     document.getElementById("result").innerHTML =
                         `${data.name}: ${data.main.temp}°C, ${data.weather[0].description}`;
                 } else {
-                    document.getElementById("result").innerText = "City not found ❌";
+                    document.getElementById("result").innerText = "City not found ";
                 }
 
             } catch (error) {
-                document.getElementById("result").innerText = "Error fetching weather data ⚠️";
+                document.getElementById("result").innerText = "Error fetching weather data ";
             }
         }
     </script>
 
 </body>
 </html>
+
 
